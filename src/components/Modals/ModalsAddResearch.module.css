@@ -1,0 +1,17 @@
+.footer {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+.errors {
+  color: red;
+  font-size: 14px;
+  text-decoration: dashed;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 600;
+}

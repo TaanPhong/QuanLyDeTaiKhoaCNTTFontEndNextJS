@@ -1,0 +1,83 @@
+.appHeader {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  background-color: #44ade9;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.leftHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  gap: 1rem;
+}
+
+.center input {
+  padding: 1rem 0.5rem;
+  height: 1.7rem;
+  border-radius: 6px;
+  border: 1px solid #cec6c6;
+}
+
+.center button {
+  height: 2rem;
+  border-radius: 6px;
+  border: 1px solid #cec6c6;
+  text-align: center;
+  font-size: 15px;
+}
+
+.rightHeader {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btnLogin {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  background: #f96816;
+  color: white;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+  border-radius: 50%;
+  background: none;
+  border: none;
+}
+
+.btn.btn-secondary.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown {
+  border: none;
+}
+
+.dropdown-item {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}

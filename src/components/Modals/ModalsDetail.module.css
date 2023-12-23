@@ -1,0 +1,17 @@
+.row {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.rowText {
+  padding: 10px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.textArea {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 6px;
+}

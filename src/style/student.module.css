@@ -1,0 +1,122 @@
+.container {
+  margin-top: 180px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.left {
+  background: #ffff;
+  flex: 2;
+  margin-right: 20px;
+  border-radius: 6px;
+  color: #a1baea;
+  border: 1px solid #a1baea;
+}
+
+.right {
+  background: #ffff;
+  flex: 8;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.topSidebar {
+  background-color: #a1baea;
+  width: 100%;
+  padding: 20px;
+  color: #ffff;
+  text-align: center;
+}
+
+.topRight {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+  text-align: center;
+}
+
+.topSidebar span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.icons {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.menuItem {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  position: relative;
+  transition: all 300ms ease;
+  font-size: 20px;
+  border-radius: 0.7rem;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  cursor: pointer;
+  margin-left: 0;
+  padding: 0 1rem;
+}
+
+.active {
+  color: red;
+}
+
+.button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background: #35a6e8;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffff;
+  transition: all 0.5s ease;
+  margin-top: 50px;
+}
+
+.iconBtn {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.comboBox {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Custom tìm kiếm */
+
+.search {
+  width: auto;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  gap: 5px;
+}
+
+.inputSearch {
+  padding: 10px 16px;
+  line-height: 20px;
+  width: 12rem;
+  border: none;
+}
+
+.iconSearch {
+  font-size: 2.3rem !important;
+  cursor: pointer;
+  color: rgb(102, 102, 223);
+  font-weight: 500;
+}

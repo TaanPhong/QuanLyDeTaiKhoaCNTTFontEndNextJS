@@ -1,0 +1,148 @@
+.container {
+  margin-top: 180px;
+  display: flex;
+}
+
+.left {
+  background: #ffff;
+  flex: 2;
+  margin-right: 20px;
+  border-radius: 6px;
+  color: #a1baea;
+  border: 1px solid #a1baea;
+  margin-bottom: 20px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  padding: 1.3rem 5rem;
+  border: 1px solid #f96816;
+  align-self: center;
+  gap: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.filter span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.right {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.btnAdd {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  background: #f96816;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  transition: all 0.5s ease;
+  margin-top: 45px;
+}
+
+.btnAdd:hover {
+  background: #ff7b39;
+}
+
+.icons {
+  height: 25px;
+  width: 25px;
+}
+
+.topSidebar {
+  background-color: #a1baea;
+  width: 100%;
+  padding: 20px;
+  color: #ffff;
+  text-align: center;
+}
+
+.topSidebar span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.icons {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.menuItem {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  position: relative;
+  transition: all 300ms ease;
+  font-size: 20px;
+  border-radius: 0.7rem;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  cursor: pointer;
+  margin-left: 0;
+  padding: 0 1rem;
+}
+
+.active {
+  color: red;
+}
+
+.groupBtn {
+  display: flex;
+  gap: 10px;
+}
+
+.comboBox {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Custom tìm kiếm */
+
+.search {
+  width: auto;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  gap: 5px;
+}
+
+.inputSearch {
+  padding: 10px 16px;
+  line-height: 20px;
+  width: 15rem;
+  border: none;
+}
+
+.iconSearch {
+  font-size: 2.3rem !important;
+  cursor: pointer;
+  color: rgb(102, 102, 223);
+  font-weight: 500;
+}

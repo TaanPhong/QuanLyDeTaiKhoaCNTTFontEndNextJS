@@ -1,0 +1,22 @@
+.table span {
+  margin: 0px 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.action {
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+}
+
+.action span {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+}
